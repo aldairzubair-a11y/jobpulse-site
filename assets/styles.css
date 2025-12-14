@@ -1,0 +1,21 @@
+:root {
+  --bg: #f7f7f9;
+  --card-bg: #ffffff;
+  --text: #222;
+  --accent: #0057ff;
+  --radius: 14px;
+  --shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+body { margin: 0; font-family: Arial, sans-serif; background: var(--bg); color: var(--text);}
+.navbar { background:#fff; padding:18px 40px; display:flex; justify-content:space-between; align-items:center; box-shadow:var(--shadow);}
+.navbar a { margin-left:20px; text-decoration:none; color:#333; font-weight:500;}
+.logo { font-size:1.4rem; font-weight:700; color:var(--accent);}
+.hero { padding:80px 40px; text-align:center;}
+.hero h1 { font-size:2.5rem; max-width:650px; margin:auto;}
+.btn-primary { background:var(--accent); color:#fff; padding:14px 26px; border-radius:var(--radius); text-decoration:none; display:inline-block; margin-top:20px; font-weight:600;}
+.cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; padding:40px;}
+.card { background:var(--card-bg); padding:20px; border-radius:var(--radius); box-shadow:var(--shadow);}
+.post-list { padding:40px; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px;}
+.post-card { background:var(--card-bg); padding:20px; border-radius:var(--radius); box-shadow:var(--shadow); text-decoration:none; color:var(--text); font-weight:600;}
+.post-container { max-width:800px; margin:40px auto; background:white; padding:40px; border-radius:var(--radius); box-shadow:var(--shadow);}
+.footer { margin-top:40px; padding:20px; background:#fff; text-align:center;}
